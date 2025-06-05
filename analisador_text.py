@@ -1,4 +1,5 @@
 from modulos.contagem import contar_palavras
+from modulos.caracteres import contar_caracteres_com_espacos
 
 def main():
     """Função principal do programa."""
@@ -15,6 +16,8 @@ Boa sorte a todos os contribuidores."""
     numero_de_palavras = contar_palavras(texto_exemplo)
     print(f"Número de palavras: {numero_de_palavras}")
 
+    caracComEspaco= contar_caracteres_com_espacos(texto_exemplo)
+    print(f'Caracteres com espaço: {caracComEspaco}')
     # Os alunos adicionarão as chamadas para as novas funcionalidades aqui.
     # Exemplo:
     # resultado_aluno_X = funcao_do_aluno_X(texto_exemplo)
