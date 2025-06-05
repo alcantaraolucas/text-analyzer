@@ -18,6 +18,7 @@ O objetivo principal deste projeto é simular um ambiente onde múltiplos desenv
 O `analisador_texto.py` é um script Python simples que realiza algumas análises básicas em um texto de exemplo. Novas funcionalidades de análise são fornecidas em módulos separados, e a tarefa dos contribuidores é integrar essas funcionalidades ao script principal.
 
 ## 📁 Estrutura do Projeto
+
 analisador_projeto/
 ├── analisador_texto.py         # Script principal que será modificado
 ├── modulos/                    # Diretório contendo os módulos com as funções de análise
